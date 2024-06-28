@@ -403,7 +403,9 @@
 
 
 
+.pf-details section .table table-striped ,tr ,th{
 
+}
 
 
 
@@ -1104,6 +1106,10 @@
 	End Slider Top
 ============================*/
 
+.pf-details section .table table-striped ,tr ,th{
+	
+}
+
 }
 /* Mobile Screen */
 @media only screen and (max-width: 450px) {
@@ -1421,7 +1427,9 @@
 /*==========================
 	End Slider Top
 ============================*/
-
+.pf-details section .table table-striped ,tr ,th{
+	
+}
 
 
 
