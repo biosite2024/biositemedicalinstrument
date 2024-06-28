@@ -2,6 +2,18 @@
 /* Tablet Screen */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 /* Header Sticky */
+
+.table table-striped tr {
+	
+}
+
+.table table-striped td {
+	
+}
+
+.pf-details section tr td{
+	
+}
 .section{
 	padding: 0%;
 }
@@ -403,8 +415,15 @@
 
 
 
-.pf-details section .table table-striped ,tr ,th{
+.table table-striped tr {
+	
+}
 
+.table table-striped td {
+	
+}
+.pf-details section tr td{
+	
 }
 
 
@@ -416,7 +435,16 @@
 }
 /* Mobile Screen */
 @media only screen and (max-width: 767px) {
-.header.sticky{
+
+	.table table-striped tr {
+	
+	}
+	
+	.table table-striped td {
+		
+	}
+	.header.sticky{
+	
 	
 }
 .header.sticky .header-bottom{
@@ -1106,14 +1134,24 @@
 	End Slider Top
 ============================*/
 
-.pf-details section .table table-striped ,tr ,th{
+.pf-details section tr td{
 	
 }
 
 }
 /* Mobile Screen */
 @media only screen and (max-width: 450px) {
+	.table table-striped tr {
+	
+	}
+	
+	.table table-striped td {
+		
+	}
 
+	.pf-details section tr td{
+	
+	}
 
 .section{
 	padding:50px 0px;
@@ -1427,7 +1465,11 @@
 /*==========================
 	End Slider Top
 ============================*/
-.pf-details section .table table-striped ,tr ,th{
+.table table-striped tr {
+	
+}
+
+.table table-striped td {
 	
 }
 
