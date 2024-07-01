@@ -405,12 +405,6 @@ body{
 	visibility:visible;
 	transform:translateY(0px);
 }
-
-.header .nav li:hover .right{
-	opacity:1;
-	visibility:visible;
-	transform:translateY(0px);
-}
 .header .nav li .dropdown li{
 	float:none;
 	margin:0;
