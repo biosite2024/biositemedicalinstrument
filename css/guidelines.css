@@ -1,0 +1,139 @@
+body {
+  background: #E8E9EE;
+  color: black; /* Default text color */
+
+}
+
+
+
+
+img {
+  pointer-events: none;
+}
+
+.booklet-image {
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px, rgba(0, 0, 0, 0.3) 0px 2px 4px,
+      rgba(0, 0, 0, 0.25) 0px 4px 8px, rgba(0, 0, 0, 0.2) 0px 8px 16px,
+      rgba(0, 0, 0, 0.15) 0px 16px 32px;
+  object-fit: cover;
+}
+
+.container {
+  max-width: 1200px; /* Adjust max width as needed */
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-lg-6 {
+  flex: 1;
+}
+
+.btn-outline-dark {
+  font-weight: bold;
+  color: black; /* Text color for buttons */
+  border-color: black; /* Border color for buttons */
+}
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* Adjust as needed */
+  margin: auto;
+  overflow: hidden;
+}
+
+.image-slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.slide img {
+  width: 100%;
+  display: block;
+}
+
+.prev-button, .next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white; /* Color for button text */
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}
+
+/* Hierarchical numbering style */
+.content {
+  counter-reset: item; /* Initialize main counter */
+}
+
+.numbered-item {
+  counter-increment: item; /* Increment main counter */
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.numbered-item::before {
+  content: counter(item) ". "; /* Display the main counter */
+  font-weight: bold;
+}
+
+.sub-numbered-item {
+  position: relative;
+  padding-left: 30px; /* Additional padding for hierarchy */
+  margin-bottom: 10px;
+}
+
+.sub-numbered-item::before {
+  content: counter(item) "." counter(sub-item) " "; /* Display hierarchical numbering */
+  counter-increment: sub-item; /* Increment sub-counter */
+  font-weight: normal; /* Normal weight for sub-items */
+}
+
+/* Use CSS counters for hierarchical numbering */
+.sub-numbered-item:nth-of-type(1)::before {
+  content: counter(item) ".1 "; /* Manually set the number for each sub-item */
+}
+
+.sub-numbered-item:nth-of-type(2)::before {
+  content: counter(item) ".2 "; /* Manually set the number for each sub-item */
+}
+
+.sub-numbered-item:nth-of-type(3)::before {
+  content: counter(item) ".3 "; /* Manually set the number for each sub-item */
+}
+.sub-numbered-item:nth-of-type(4)::before {
+  content: counter(item) ".4 "; /* Manually set the number for each sub-item */
+}
+.sub-numbered-item:nth-of-type(5)::before {
+  content: counter(item) ".5 "; /* Manually set the number for each sub-item */
+}
+.sub-numbered-item:nth-of-type(6)::before {
+  content: counter(item) ".6 "; /* Manually set the number for each sub-item */
+}
+.sub-numbered-item:nth-of-type(7)::before {
+  content: counter(item) ".7 "; /* Manually set the number for each sub-item */
+}
+.sub-numbered-item:nth-of-type(8)::before {
+  content: counter(item) ".8 "; /* Manually set the number for each sub-item */
+}
