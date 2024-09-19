@@ -1,0 +1,194 @@
+body {
+  background: #E8E9EE;
+  color: black; /* Default text color */
+
+}
+
+
+img {
+  pointer-events: none;
+}
+
+.booklet-image {
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px, rgba(0, 0, 0, 0.3) 0px 2px 4px,
+      rgba(0, 0, 0, 0.25) 0px 4px 8px, rgba(0, 0, 0, 0.2) 0px 8px 16px,
+      rgba(0, 0, 0, 0.15) 0px 16px 32px;
+  object-fit: cover;
+}
+
+.container {
+  max-width: 1200px; /* Adjust max width as needed */
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-lg-6 {
+  flex: 1;
+}
+
+.btn-outline-dark {
+  font-weight: bold;
+  color: black; /* Text color for buttons */
+  border-color: black; /* Border color for buttons */
+}
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* Adjust as needed */
+  margin: auto;
+  overflow: hidden;
+}
+
+.image-slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.slide img {
+  width: 100%;
+  display: block;
+}
+
+.prev-button, .next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white; /* Color for button text */
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}
+
+/* Hierarchical numbering style */
+.content {
+  counter-reset: item; /* Initialize main counter */
+}
+
+.numbered-item {
+  counter-increment: item; /* Increment main counter */
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.numbered-item::before {
+  content: counter(item) ". "; /* Display the main counter */
+  font-weight: bold;
+}
+
+.sub-numbered-item {
+  position: relative;
+  padding-left: 30px; /* Additional padding for hierarchy */
+  margin-bottom: 10px;
+}
+
+
+
+
+/* Slider Container */
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Each slide */
+.slide, .slide2 {
+  min-width: 100%;
+  height: auto;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Images inside the slides */
+.slide img, .slide2 img {
+  width: 100%;
+  height: auto;
+}
+
+/* Navigation buttons */
+.prev-button, .next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}
+
+/* Responsive adjustments */
+@media all and (max-width: 768px) {
+  .slider-container {
+    height: 300px;
+  }
+
+  .prev-button, .next-button {
+    padding: 5px;
+  }
+  .h2-slider-container{
+    font-size: 1.5rem;
+
+  }
+}
+
+@media (max-width: 480px) {
+  .slider-container {
+    height: 200px;
+  }
+}
+
+
+
+
+/* ==========zoom========= */
+/* Style for sub-numbered list to use letters */
+.sub-lettered-list {
+  list-style-type: upper-alpha;
+  padding-left: 30px;
+}
+
+.sub-lettered-list li {
+  margin-bottom: 5px;
+}
+
+/* Make the zoom container responsive */
+.zoom-container {
+  overflow: hidden; /* Ensures content doesn't overflow when zooming */
+  width: 100%;
+  max-width: 100%;
+}
+
+/* This targets the element we will zoom */
+.zoom-target {
+  transition: transform 0.3s ease; /* Smooth zoom transition */
+  transform-origin: center center; /* Scale from the center */
+}
