@@ -117,7 +117,7 @@ Highcharts.chart('container', {
                     var point = event.point;
                     
                     if (point.id === 'LUZON') {
-                        window.location.href = '/orgsalesforce.html';  // Transfer to another page
+                        window.location.href = 'orgsalesforce.html';  // Transfer to another page
                     } 
                     
                     // else if (point.id === 'BQ') {
