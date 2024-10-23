@@ -1,3 +1,5 @@
+  
+  
   Highcharts.chart('container', {
     chart: {
         height: 600, // Keep chart height
@@ -47,28 +49,15 @@
             { level: 3, color: '#359154' },
             { level: 4, color: '#007ad0' }
         ],
-        nodes: [
-            { id: 'PRESIDENT', color: 'silver' },
-            { id: 'VICE-PRESIDENT', color: 'silver' },
-            { id: 'CHIEF OF OPERATING OFFICER', color: '#980104' },
-            { id: 'SALES DEPARTMENT' },
-            { id: 'SF', name: 'SALES FORCE' },
-            { id: 'BQ', name: 'BIDDING & QUOTATIONS' },
-            { id: 'PM', name: 'PRODUCT MANAGEMENT' },
-            { id: 'C', name: 'CREATIVES' },
-            { id: 'CEE', name: 'CUSTOMER ENGAGEMENT & EVENTS' },
-            { id: 'TS', name: 'TECHNICAL SERVICES' },
-            { id: 'ME', name: 'MEDICAL EQUIPMENT' },
-            { id: 'SC', name: 'SUPPLY CHAIN' },
-            { id: 'P', name: 'PROCUREMENT' },
-            { id: 'A', name: 'ACCOUNTING' },
-            { id: 'CC', name: 'CREDIT & COLLECTION' },
-            { id: 'HR', name: 'HR & ADMINISTRATIVE DEPARTMENT' },
-            { id: 'GA', name: 'GENERAL ACCOUNTING' },
-            { id: 'T', name: 'TREASURY' },
-            { id: 'COM', name: 'COMPLIANCE' }
-        ],
-      
+
+                nodes: [
+                    {
+                        id: 'LUZON',
+                        name: 'LUZON <i class="fas fa-eye"></i>',  // Add the eye icon using HTML
+                        title: 'Region'
+                    }
+                ],
+            
     //     nodes: [ 
     //      // {
     //      // id: 'msr16',

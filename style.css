@@ -3479,6 +3479,8 @@ body{
 /*=========================
    Start Contact Us CSS
 ===========================*/
+
+
 .contact-us .inner{
 	box-shadow: 0px 0px 10px #00000024;
 	border-radius: 5px;
@@ -4453,64 +4455,3 @@ body{
   }
 
 
-
-/*=========================
-	Org Chart CSS
-===========================*/
-
-  
-/* /=============page 1============/ */
-#container, #container-duplicate, #container-duplicate3 {
-    height: 100%; /* Set height of the chart */
-    width: 100%; /* Set width of the chart */
-    font-size: 50%; /* General font size for the chart */
-
-}
-
-#container p, #container-duplicate p, #container-duplicate3 p {
-    word-wrap: break-word;
-    font-size: 60%;
-    white-space: normal;
-    overflow-wrap: break-word;
-}
-
-#container h4, #container-duplicate h4, #container-duplicate3  h4 {
-    text-transform: none;
-    font-size: 100%;
-    font-weight: normal;
-    word-wrap: break-word;
-    white-space: normal;
-    overflow-wrap: break-word;
-    text-decoration-style: solid;
-}
-
-
-/* /=============page 2============/ */
-
-
-#container-duplicate3 {
-    height: 100%; /* Set height of the chart */
-    width: 100%; /* Set width of the chart */
-    font-size: 50%; /* General font size for the chart */
-}
-
-
-#container-duplicate3 p {
-    word-wrap: break-word;
-    font-size: 50%;
-    white-space: normal;
-    overflow-wrap: break-word;
-}
-
-#container-duplicate3 h4 {
-    text-transform: none;
-    font-size: 80%;
-    font-weight: normal;
-    word-wrap: break-word;
-    white-space: normal;
-    overflow-wrap: break-word;
-}
-
-/*=========================
-	eND Org Chart CSS
-===========================*/
