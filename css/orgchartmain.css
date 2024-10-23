@@ -385,6 +385,7 @@
     white-space: normal;
     overflow-wrap: break-word;
     text-decoration-style: solid;
+	color: white;
 }
 /* /=============page 2============/ */
 .container-duplicate {
@@ -408,6 +409,7 @@
     white-space: normal;
     overflow-wrap: break-word;
     text-decoration-style: solid;
+	color: white;
 }
 
 
@@ -425,8 +427,12 @@
     padding-top: 60px;
 }
 
+.modal-title-text {
+	color: black;
+}
+
 .modal-content {
-    background-color: #000000;
+    background-color: #ffffff;
     margin: 5% auto;
     padding: 20px;
     border: 1px solid #888;
