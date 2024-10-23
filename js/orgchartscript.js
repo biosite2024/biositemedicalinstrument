@@ -1,6 +1,6 @@
 Highcharts.chart('container', {
     chart: {
-        height: 400,
+        height: 200,
         inverted: true
     },
     title: {
@@ -16,8 +16,7 @@ Highcharts.chart('container', {
                 ['rsml', 'dsm1'],
                 ['rsml', 'dsm2'],
                 ['rsml', 'dsm3'],
-                  
-                   
+        
         ],
 
         levels: [{
@@ -94,9 +93,7 @@ Highcharts.chart('container', {
                             facebookLink: 'https://www.facebook.com/people/Elie-DM/pfbid03gJmVrkXRvmhk6jCsJarJEm3RYh77n5JmDNE4NHzhy6GD7NgAcCv3FmePUnMFxuql/',
                             areaCode: ''
                         },
-
-
-               
+             
         ],
         colorByPoint: false,
         dataLabels: {
@@ -167,7 +164,7 @@ Highcharts.chart('container', {
     
 Highcharts.chart('container-duplicate', {
     chart: {
-        height: 5, // Keep chart height
+        height: 600, // Keep chart height
         inverted: true
     },
 
@@ -436,12 +433,12 @@ Highcharts.chart('container-duplicate', {
     tooltip: {
         outside: true
     },
-    exporting: {
-        allowHTML: true,
-        sourceWidth: 1000,
-        sourceHeight: 500
+    // exporting: {
+    //     allowHTML: true,
+    //     sourceWidth: 1000,
+    //     sourceHeight: 500
         
-    },
+    // },
     credits: {
         enabled: false // Disable Highcharts credits
     },
