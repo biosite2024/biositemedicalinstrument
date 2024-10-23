@@ -351,27 +351,33 @@
 
 
 
+
+
+
 /*=========================
 	Org Chart Header CSS
 ===========================*/
-
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
 
 /* /=============page 1============/ */
-#container, #container-duplicate, #container-duplicate3 {
+.container {
     height: 100%; /* Set height of the chart */
     width: 100%; /* Set width of the chart */
     font-size: 50%; /* General font size for the chart */
-
 }
 
-#container p, #container-duplicate p, #container-duplicate3 p {
+.container p {
     word-wrap: break-word;
     font-size: 60%;
     white-space: normal;
     overflow-wrap: break-word;
 }
 
-#container h4, #container-duplicate h4, #container-duplicate3  h4 {
+.container h4 {
     text-transform: none;
     font-size: 100%;
     font-weight: normal;
@@ -380,37 +386,29 @@
     overflow-wrap: break-word;
     text-decoration-style: solid;
 }
-
-
 /* /=============page 2============/ */
-
-
-
-#container-duplicate3 {
+.container-duplicate {
     height: 100%; /* Set height of the chart */
     width: 100%; /* Set width of the chart */
     font-size: 50%; /* General font size for the chart */
 }
 
-
-#container-duplicate3 p {
+.container-duplicate p {
     word-wrap: break-word;
-    font-size: 50%;
+    font-size: 60%;
     white-space: normal;
     overflow-wrap: break-word;
 }
 
-#container-duplicate3 h4 {
+.container-duplicate h4 {
     text-transform: none;
-    font-size: 80%;
+    font-size: 100%;
     font-weight: normal;
     word-wrap: break-word;
     white-space: normal;
     overflow-wrap: break-word;
+    text-decoration-style: solid;
 }
-
-
-
 
 
 /* Modal Styles */
@@ -428,7 +426,7 @@
 }
 
 .modal-content {
-    background-color: #fefefe;
+    background-color: #000000;
     margin: 5% auto;
     padding: 20px;
     border: 1px solid #888;
