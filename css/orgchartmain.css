@@ -250,7 +250,7 @@
 /* Right Bar */
 .header.style2 .main-menu{
 	display:inline-block;
-	float:left;
+	float:none;
 }
 .header .right-bar {
 	float: right;
@@ -367,12 +367,12 @@
 .container {
     height: 100%; /* Set height of the chart */
     width: 100%; /* Set width of the chart */
-    font-size: 50%; /* General font size for the chart */
+    font-size: 80%; /* General font size for the chart */
 }
 
 .container p {
     word-wrap: break-word;
-    font-size: 60%;
+    font-size: 80%;
     white-space: normal;
     overflow-wrap: break-word;
 }
@@ -391,12 +391,12 @@
 .container-duplicate {
     height: 100%; /* Set height of the chart */
     width: 100%; /* Set width of the chart */
-    font-size: 50%; /* General font size for the chart */
+    font-size: 80%; /* General font size for the chart */
 }
 
 .container-duplicate p {
     word-wrap: break-word;
-    font-size: 60%;
+    font-size: 80%;
     white-space: normal;
     overflow-wrap: break-word;
 }

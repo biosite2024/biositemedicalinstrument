@@ -1149,24 +1149,9 @@
 	End Slider Top
 ============================*/
 
-.pf-details section tr td{
-	
-}
-
-}
 /* Mobile Screen */
 @media only screen and (max-width: 450px) {
-	.table table-striped tr {
-	
-	}
-	
-	.table table-striped td {
-		
-	}
 
-	.pf-details section tr td{
-	
-	}
 
 .section{
 	padding:50px 0px;
@@ -1438,7 +1423,7 @@
 }
 
 
-
+}
 
 
 /*==========================
@@ -1564,8 +1549,6 @@
 	}
 	
   }
-
-	
 
 /*==========================
 	Slider Top CLIENTS
