@@ -23,10 +23,9 @@
             ['CHIEF OF OPERATING OFFICER', 'FINANCE & ACCOUNTING DEPARTMENT'],
             ['CHIEF OF OPERATING OFFICER', 'REGULATORY DEPARTMENT'],
             ['CHIEF OF OPERATING OFFICER', 'HR & ADMIN DEPARTMENT'],
-            ['SALES DEPARTMENT', 'SF'],
-            ['SF', 'LUZON'],
-            ['SF', 'VISAYAS'],
-            ['SF', 'MINDANAO'],
+            ['SALES DEPARTMENT', 'LUZON'],
+            ['SALES DEPARTMENT', 'VISAYAS'],
+            ['SALES DEPARTMENT', 'MINDANAO'],
            
         ],
         levels: [
