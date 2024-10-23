@@ -27,7 +27,7 @@ Highcharts.chart('container', {
         }
     },
     title: {
-        text: 'BMI - Organizational Structure'
+        text: ''
     },
     series: [{
         type: 'organization',
