@@ -167,7 +167,7 @@ Highcharts.chart('container', {
     
 Highcharts.chart('container-duplicate', {
     chart: {
-        height: 600, // Keep chart height
+        height: 5, // Keep chart height
         inverted: true
     },
 
