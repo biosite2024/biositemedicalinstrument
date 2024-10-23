@@ -357,11 +357,6 @@
 /*=========================
 	Org Chart Header CSS
 ===========================*/
-.body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
 
 /* /=============page 1============/ */
 .container {
@@ -387,21 +382,25 @@
     text-decoration-style: solid;
 	color: white;
 }
-/* /=============page 2============/ */
-.container-duplicate {
+
+
+/* /=============page 1============/ */
+#container, #container-duplicate {
     height: 100%; /* Set height of the chart */
     width: 100%; /* Set width of the chart */
-    font-size: 80%; /* General font size for the chart */
+    font-size: 50%; /* General font size for the chart */
+
 }
 
-.container-duplicate p {
+#container p, #container-duplicate p {
     word-wrap: break-word;
     font-size: 80%;
     white-space: normal;
     overflow-wrap: break-word;
+
 }
 
-.container-duplicate h4 {
+#container h4, #container-duplicate h4 {
     text-transform: none;
     font-size: 100%;
     font-weight: normal;
@@ -409,7 +408,7 @@
     white-space: normal;
     overflow-wrap: break-word;
     text-decoration-style: solid;
-	color: white;
+    text-decoration: solid;
 }
 
 
@@ -427,12 +426,9 @@
     padding-top: 60px;
 }
 
-.modal-title-text {
-	color: black;
-}
-
 .modal-content {
-    background-color: #ffffff;
+    background-color: #fefefe;
+    text-decoration: solid;
     margin: 5% auto;
     padding: 20px;
     border: 1px solid #888;

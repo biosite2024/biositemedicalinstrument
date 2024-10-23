@@ -27,20 +27,7 @@
             ['SF', 'LUZON'],
             ['SF', 'VISAYAS'],
             ['SF', 'MINDANAO'],
-            ['SALES DEPARTMENT', 'BQ'],
-            ['MARKETING DEPARTMENT', 'PM'],
-            ['MARKETING DEPARTMENT', 'C'],
-            ['MARKETING DEPARTMENT', 'CEE'],
-            ['TECHNICAL SALES DEPARTMENT', 'TS'],
-            ['TECHNICAL SALES DEPARTMENT', 'ME'],
-            ['OPERATIONS DEPARTMENT DEPARTMENT', 'SC'],
-            ['OPERATIONS DEPARTMENT DEPARTMENT', 'P'],
-            ['FINANCE & ACCOUNTING DEPARTMENT', 'A'],
-            ['FINANCE & ACCOUNTING DEPARTMENT', 'CC'],
-            ['HR & ADMIN DEPARTMENT', 'HR'],
-            ['A', 'GA'],
-            ['A', 'T'],
-            ['A', 'COM']
+           
         ],
         levels: [
             { level: 0, color: 'silver', dataLabels: { color: 'black' }, height: 30 },
@@ -53,8 +40,8 @@
                 nodes: [
                     {
                         id: 'LUZON',
-                        name: 'LUZON <i class="fas fa-eye"></i>',  // Add the eye icon using HTML
-                        title: 'Region'
+                        name: '<i class="fas fa-eye"></i> LUZON ',  // Add the eye icon using HTML
+                        title: ''
                     }
                 ],
             
