@@ -102,7 +102,7 @@
 
 
                     if (point.id === 'LUZON') {
-                        window.location.href = 'orgsalesforceluzon.html';  // Transfer to another page
+                        window.location.href = 'orgsalesforce.html';  // Transfer to another page
                     } 
                     if (!point.image) {
                         console.warn("No image available. Modal won't open.");
