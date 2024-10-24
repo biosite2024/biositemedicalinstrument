@@ -13,11 +13,13 @@ Highcharts.chart('container', {
         data: [
             ['sdir', 'rsml'],
 
-                ['rsml', 'dsm1'],
+                ['rsml', 'dsm1'],['dsm1', 'msr'],
                 ['rsml', 'dsm2'],
-                ['rsml', 'dsm3'],
-                  
-                   
+                ['rsml', 'dsm3'], 
+
+                     ['msr', 'msr1'],
+                     ['msr', 'msr2'],
+                    
         ],
 
         levels: [{
@@ -73,6 +75,35 @@ Highcharts.chart('container', {
                             facebookLink: 'https://www.facebook.com/rose.saligumba',
                             areaCode: ''
                         },
+
+
+                                {
+                                    id: 'msr',
+                                    name: 'MEDICAL SALES REPRESENTATIVE'
+                                },
+                                
+                
+                                    {
+                                        id: 'msr1',
+                                        title: 'Medical Sales Representative',
+                                        additionalInfo: 'Rose Saligumba',
+                                        name: 'Edelyn Teodoro',
+                                        image: 'https://i.ibb.co/NnpKC6T/edelyn.jpg',
+                                        contact: 'annelie.bacay@biositeph.com',
+                                        contactNumber: '+63-917-110-2979',
+                                        facebookLink: 'https://www.facebook.com/people/Edelyn-Msr-Teodoro/pfbid02eJF4GtQf1Ay1qnmw9Dj8YaoMLDqm8Pdozue77Gk8aCqfLN8pfnaoRzD2jdi2fMSul/',
+                                        areaCode: 'QUEZON CITY 1 - NKTI -VETERANS - NEW ERA'
+                                    },
+                                    {
+                                        id: 'msr2',
+                                        title: 'Medical Sales Representative',
+                                        name: 'John Paul Ubando',
+                                        image: 'https://i.ibb.co/mvHPQHv/2024-10-22-15-40-00.png',
+                                        contact: 'annelie.bacay@biositeph.com',
+                                        contactNumber: '+63-917-110-2979',
+                                        facebookLink: 'https://www.facebook.com/people/Elie-DM/pfbid03gJmVrkXRvmhk6jCsJarJEm3RYh77n5JmDNE4NHzhy6GD7NgAcCv3FmePUnMFxuql/',
+                                        areaCode: 'QUEZON CITY 2 - HEART CENTER - VLUNA - QUIRINO'
+                                    },
 
                         {
                             id: 'dsm2',
