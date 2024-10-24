@@ -1,6 +1,6 @@
 Highcharts.chart('container', {
     chart: {
-        height: 400,
+        height: 600,
         inverted: true
     },
     title: {
@@ -14,12 +14,25 @@ Highcharts.chart('container', {
             ['sdir', 'rsml'],
 
                 ['rsml', 'dsm1'],['dsm1', 'msr'],
-                ['rsml', 'dsm2'],
-                ['rsml', 'dsm3'], 
+                ['rsml', 'dsm2'],['dsm1', 'msrc'],
+                ['rsml', 'dsm3'],['dsm1', 'msrr'],
 
                      ['msr', 'msr1'],
                      ['msr', 'msr2'],
-                    
+                        ['msr1', 'msr3'],
+                        ['msr2', 'msr4'],
+
+                     ['msrc', 'msrc1'],
+                     ['msrc', 'msrc2'],
+                        ['msrc1', 'msrc3'],
+                        ['msrc2', 'msrc4'],
+                        
+                     ['msrr', 'msrr1'],
+                     ['msrr', 'msrr2'],
+                        ['msrr1', 'msrr3'],
+                        ['msrr2', 'msrr4'],
+
+                        
         ],
 
         levels: [{
@@ -105,6 +118,28 @@ Highcharts.chart('container', {
                                         areaCode: 'QUEZON CITY 2 - HEART CENTER - VLUNA - QUIRINO'
                                     },
 
+                                    {
+                                        id: 'msr3',
+                                        title: 'Medical Sales Representative',
+                                        additionalInfo: 'Rose Saligumba',
+                                        name: 'Edelyn Teodoro',
+                                        image: 'https://i.ibb.co/NnpKC6T/edelyn.jpg',
+                                        contact: 'annelie.bacay@biositeph.com',
+                                        contactNumber: '+63-917-110-2979',
+                                        facebookLink: 'https://www.facebook.com/people/Edelyn-Msr-Teodoro/pfbid02eJF4GtQf1Ay1qnmw9Dj8YaoMLDqm8Pdozue77Gk8aCqfLN8pfnaoRzD2jdi2fMSul/',
+                                        areaCode: 'QUEZON CITY 1 - NKTI -VETERANS - NEW ERA'
+                                    },
+                                    {
+                                        id: 'msr4',
+                                        title: 'Medical Sales Representative',
+                                        name: 'John Paul Ubando',
+                                        image: 'https://i.ibb.co/mvHPQHv/2024-10-22-15-40-00.png',
+                                        contact: 'annelie.bacay@biositeph.com',
+                                        contactNumber: '+63-917-110-2979',
+                                        facebookLink: 'https://www.facebook.com/people/Elie-DM/pfbid03gJmVrkXRvmhk6jCsJarJEm3RYh77n5JmDNE4NHzhy6GD7NgAcCv3FmePUnMFxuql/',
+                                        areaCode: 'QUEZON CITY 2 - HEART CENTER - VLUNA - QUIRINO'
+                                    },
+
                         {
                             id: 'dsm2',
                             title: 'District Sales Manager (NCR5-8)',
@@ -115,6 +150,57 @@ Highcharts.chart('container', {
                             facebookLink: 'https://www.facebook.com/people/Christian-DM-De-Guzman/pfbid0qNBTsPe5PXfBr4cmP1C3F4mxTdg5irL88EeuD2xhMbNo4145Vn1fTHSSBA8W3mHel/',
                              areaCode: ''
                         },
+
+                                    {
+                                        id: 'msrc',
+                                        name: 'MEDICAL SALES REPRESENTATIVE'
+                                    },
+                                    
+                    
+                                        {
+                                            id: 'msrc1',
+                                            title: 'Medical Sales Representative',
+                                            additionalInfo: 'Rose Saligumba',
+                                            name: 'Edelyn Teodoro',
+                                            image: 'https://i.ibb.co/NnpKC6T/edelyn.jpg',
+                                            contact: 'annelie.bacay@biositeph.com',
+                                            contactNumber: '+63-917-110-2979',
+                                            facebookLink: 'https://www.facebook.com/people/Edelyn-Msr-Teodoro/pfbid02eJF4GtQf1Ay1qnmw9Dj8YaoMLDqm8Pdozue77Gk8aCqfLN8pfnaoRzD2jdi2fMSul/',
+                                            areaCode: 'QUEZON CITY 1 - NKTI -VETERANS - NEW ERA'
+                                        },
+                                        {
+                                            id: 'msrc2',
+                                            title: 'Medical Sales Representative',
+                                            name: 'John Paul Ubando',
+                                            image: 'https://i.ibb.co/mvHPQHv/2024-10-22-15-40-00.png',
+                                            contact: 'annelie.bacay@biositeph.com',
+                                            contactNumber: '+63-917-110-2979',
+                                            facebookLink: 'https://www.facebook.com/people/Elie-DM/pfbid03gJmVrkXRvmhk6jCsJarJEm3RYh77n5JmDNE4NHzhy6GD7NgAcCv3FmePUnMFxuql/',
+                                            areaCode: 'QUEZON CITY 2 - HEART CENTER - VLUNA - QUIRINO'
+                                        },
+
+                                        {
+                                            id: 'msrc3',
+                                            title: 'Medical Sales Representative',
+                                            additionalInfo: 'Rose Saligumba',
+                                            name: 'Edelyn Teodoro',
+                                            image: 'https://i.ibb.co/NnpKC6T/edelyn.jpg',
+                                            contact: 'annelie.bacay@biositeph.com',
+                                            contactNumber: '+63-917-110-2979',
+                                            facebookLink: 'https://www.facebook.com/people/Edelyn-Msr-Teodoro/pfbid02eJF4GtQf1Ay1qnmw9Dj8YaoMLDqm8Pdozue77Gk8aCqfLN8pfnaoRzD2jdi2fMSul/',
+                                            areaCode: 'QUEZON CITY 1 - NKTI -VETERANS - NEW ERA'
+                                        },
+                                        {
+                                            id: 'msrc3',
+                                            title: 'Medical Sales Representative',
+                                            name: 'John Paul Ubando',
+                                            image: 'https://i.ibb.co/mvHPQHv/2024-10-22-15-40-00.png',
+                                            contact: 'annelie.bacay@biositeph.com',
+                                            contactNumber: '+63-917-110-2979',
+                                            facebookLink: 'https://www.facebook.com/people/Elie-DM/pfbid03gJmVrkXRvmhk6jCsJarJEm3RYh77n5JmDNE4NHzhy6GD7NgAcCv3FmePUnMFxuql/',
+                                            areaCode: 'QUEZON CITY 2 - HEART CENTER - VLUNA - QUIRINO'
+                                        },
+                        
                         {
                             id: 'dsm3',
                             title: 'District Sales Manager (SL)',
@@ -125,6 +211,57 @@ Highcharts.chart('container', {
                             facebookLink: 'https://www.facebook.com/people/Elie-DM/pfbid03gJmVrkXRvmhk6jCsJarJEm3RYh77n5JmDNE4NHzhy6GD7NgAcCv3FmePUnMFxuql/',
                             areaCode: ''
                         },
+
+
+                                {
+                                    id: 'msrr',
+                                    name: 'MEDICAL SALES REPRESENTATIVE'
+                                },
+                                
+                
+                                    {
+                                        id: 'msrr1',
+                                        title: 'Medical Sales Representative',
+                                        additionalInfo: 'Rose Saligumba',
+                                        name: 'Edelyn Teodoro',
+                                        image: 'https://i.ibb.co/NnpKC6T/edelyn.jpg',
+                                        contact: 'annelie.bacay@biositeph.com',
+                                        contactNumber: '+63-917-110-2979',
+                                        facebookLink: 'https://www.facebook.com/people/Edelyn-Msr-Teodoro/pfbid02eJF4GtQf1Ay1qnmw9Dj8YaoMLDqm8Pdozue77Gk8aCqfLN8pfnaoRzD2jdi2fMSul/',
+                                        areaCode: 'QUEZON CITY 1 - NKTI -VETERANS - NEW ERA'
+                                    },
+                                    {
+                                        id: 'msrr2',
+                                        title: 'Medical Sales Representative',
+                                        name: 'John Paul Ubando',
+                                        image: 'https://i.ibb.co/mvHPQHv/2024-10-22-15-40-00.png',
+                                        contact: 'annelie.bacay@biositeph.com',
+                                        contactNumber: '+63-917-110-2979',
+                                        facebookLink: 'https://www.facebook.com/people/Elie-DM/pfbid03gJmVrkXRvmhk6jCsJarJEm3RYh77n5JmDNE4NHzhy6GD7NgAcCv3FmePUnMFxuql/',
+                                        areaCode: 'QUEZON CITY 2 - HEART CENTER - VLUNA - QUIRINO'
+                                    },
+
+                                    {
+                                        id: 'msrr3',
+                                        title: 'Medical Sales Representative',
+                                        additionalInfo: 'Rose Saligumba',
+                                        name: 'Edelyn Teodoro',
+                                        image: 'https://i.ibb.co/NnpKC6T/edelyn.jpg',
+                                        contact: 'annelie.bacay@biositeph.com',
+                                        contactNumber: '+63-917-110-2979',
+                                        facebookLink: 'https://www.facebook.com/people/Edelyn-Msr-Teodoro/pfbid02eJF4GtQf1Ay1qnmw9Dj8YaoMLDqm8Pdozue77Gk8aCqfLN8pfnaoRzD2jdi2fMSul/',
+                                        areaCode: 'QUEZON CITY 1 - NKTI -VETERANS - NEW ERA'
+                                    },
+                                    {
+                                        id: 'msrr4',
+                                        title: 'Medical Sales Representative',
+                                        name: 'John Paul Ubando',
+                                        image: 'https://i.ibb.co/mvHPQHv/2024-10-22-15-40-00.png',
+                                        contact: 'annelie.bacay@biositeph.com',
+                                        contactNumber: '+63-917-110-2979',
+                                        facebookLink: 'https://www.facebook.com/people/Elie-DM/pfbid03gJmVrkXRvmhk6jCsJarJEm3RYh77n5JmDNE4NHzhy6GD7NgAcCv3FmePUnMFxuql/',
+                                        areaCode: 'QUEZON CITY 2 - HEART CENTER - VLUNA - QUIRINO'
+                                    },
 
 
                
