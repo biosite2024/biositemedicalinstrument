@@ -479,7 +479,7 @@ Highcharts.chart('container-duplicate', {
                     // DMS Area Info
                     document.getElementById("modal-additional-info").innerText = `DSM: ${point.additionalInfo || 'No additional information available.'}`;
                     // Display Area Code
-                    document.getElementById("modal-area-code").innerText = `Area Code: ${point.areaCode || 'N/A'}`;
+                    document.getElementById("modal-area-code").innerText = `Area: ${point.areaCode || 'N/A'}`;
                 
                     const facebookLink = document.getElementById("modal-facebook-link");
                     if (point.facebookLink) {
