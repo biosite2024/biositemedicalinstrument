@@ -17,8 +17,10 @@ Highcharts.chart('container', {
                 ['rsml', 'dsm2'],['dsm1', 'msrc'],
                 ['rsml', 'dsm3'],['dsm1', 'msrr'],
 
-                     ['msr', 'msr1'],
+                     ['msr', 'msr1', 'msr3'],
                      ['msr', 'msr2'],
+                     
+
                         ['msr1', 'msr3'],
                         ['msr2', 'msr4'],
 
