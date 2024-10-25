@@ -15,17 +15,17 @@
         keys: ['from', 'to', 'className'],
         data: [
             ['PRESIDENT', 'VICE-PRESIDENT'],
-            ['VICE-PRESIDENT', 'CHIEF OF OPERATING OFFICER'],
-            ['CHIEF OF OPERATING OFFICER', 'SALES DEPARTMENT'],
-            ['CHIEF OF OPERATING OFFICER', 'MARKETING DEPARTMENT'],
-            ['CHIEF OF OPERATING OFFICER', 'TECHNICAL SALES DEPARTMENT'],
-            ['CHIEF OF OPERATING OFFICER', 'OPERATIONS DEPARTMENT DEPARTMENT'],
-            ['CHIEF OF OPERATING OFFICER', 'FINANCE & ACCOUNTING DEPARTMENT'],
-            ['CHIEF OF OPERATING OFFICER', 'REGULATORY DEPARTMENT'],
-            ['CHIEF OF OPERATING OFFICER', 'HR & ADMIN DEPARTMENT'],
+            ['VICE-PRESIDENT', 'CHIEF OPERATING OFFICER'],
+            ['CHIEF OPERATING OFFICER', 'SALES DEPARTMENT'],
+            ['CHIEF OPERATING OFFICER', 'MARKETING DEPARTMENT'],
+            ['CHIEF OPERATING OFFICER', 'TECHNICAL SALES DEPARTMENT'],
+            ['CHIEF OPERATING OFFICER', 'OPERATIONS DEPARTMENT DEPARTMENT'],
+            ['CHIEF OPERATING OFFICER', 'FINANCE & ACCOUNTING DEPARTMENT'],
+            ['CHIEF OPERATING OFFICER', 'REGULATORY DEPARTMENT'],
+            ['CHIEF OPERATING OFFICER', 'HR & ADMIN DEPARTMENT'],
             ['SALES DEPARTMENT', 'LUZON'],
-            ['SALES DEPARTMENT', 'VISAYAS'],
-            ['SALES DEPARTMENT', 'MINDANAO'],
+            ['SALES DEPARTMENT', 'VISMIN'],
+         
            
         ],
         levels: [
@@ -40,6 +40,14 @@
                     {
                         id: 'LUZON',
                         name: '<i class="fas fa-eye"></i> LUZON ',  // Add the eye icon using HTML
+                        title: ''
+                    }
+                ],
+
+                nodes: [
+                    {
+                        id: 'VISMIN',
+                        name: '<i class="fas fa-eye"></i> VISMIN ',  // Add the eye icon using HTML
                         title: ''
                     }
                 ],
@@ -103,6 +111,9 @@
 
                     if (point.id === 'LUZON') {
                         window.location.href = 'orgsalesforce.html';  // Transfer to another page
+                    } 
+                    if (point.id === 'VISMIN') {
+                        window.location.href = 'orgvismin.html';  // Transfer to another page
                     } 
                     if (!point.image) {
                         console.warn("No image available. Modal won't open.");
