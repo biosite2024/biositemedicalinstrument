@@ -508,9 +508,9 @@ Preloader Area CSS
 	text-align:center;
 }
 .breadcrumbs h2{
-	color: #fff;
+	color: #000000;
 	text-transform:capitalize;
-	font-size: 38px;
+	font-size: 25px;
 	font-weight: 700;
 	margin: 0;
 	padding: 0;
