@@ -41,10 +41,7 @@
                         id: 'LUZON',
                         name: '<i class="fas fa-eye"></i> LUZON ',  // Add the eye icon using HTML
                         title: ''
-                    }
-                ],
-
-                nodes: [
+                    },
                     {
                         id: 'VISMIN',
                         name: '<i class="fas fa-eye"></i> VISMIN ',  // Add the eye icon using HTML

@@ -14,15 +14,12 @@ Highcharts.chart('container', {
             ['sdir', 'rsml'],
 
                 ['rsml', 'dsm1'],['dsm1', 'msr'],
-                ['rsml', 'dsm2'],['dsm1', 'msrc'],
-                ['rsml', 'dsm3'],['dsm1', 'msrr'],
+                ['rsml', 'dsm2'],['dsm2', 'msrc'],
+                ['rsml', 'dsm3'],['dsm3', 'msrr'],
 
-                     ['msr', 'msr1', 'msr3'],
-                     ['msr', 'msr2'],
-                     
-
-                        ['msr1', 'msr3'],
-                        ['msr2', 'msr4'],
+                     ['msr', 'msr1', 'msr3', 'msr5'],
+                     ['msr', 'msr2', 'msr4', 'msr6'], 
+                         
 
                      ['msrc', 'msrc1'],
                      ['msrc', 'msrc2'],
@@ -72,7 +69,7 @@ Highcharts.chart('container', {
             },
             {
                 id: 'rsml',
-                title: 'Regional Sales Manager (Luzon)',
+                title: 'Regional Sales Manager',
                 name: 'Girlie Guerrero Doroja',
                 image: 'https://i.ibb.co/VTP5B4K/GIRLIE.jpg',
                 contact: 'biosite.dsmnorthluzon@gmail.com',
@@ -82,7 +79,7 @@ Highcharts.chart('container', {
             },
                         {
                             id: 'dsm1',
-                            title: 'District Sales Manager (NCR1-4)',
+                            title: 'District Sales Manager',
                             name: 'Rose Saligumba',
                             image: 'https://i.ibb.co/LrHb7JT/ROS.jpg',
                             contact: 'kathleen.reyes@biosite.com',
@@ -94,7 +91,8 @@ Highcharts.chart('container', {
 
                                 {
                                     id: 'msr',
-                                    name: 'MEDICAL SALES REPRESENTATIVE'
+                                    name: 'MEDICAL SALES REPRESENTATIVE',
+                                    title: '(NCR1-4)'
                                 },
                                 
                 
@@ -141,10 +139,29 @@ Highcharts.chart('container', {
                                         facebookLink: 'https://www.facebook.com/people/Elie-DM/pfbid03gJmVrkXRvmhk6jCsJarJEm3RYh77n5JmDNE4NHzhy6GD7NgAcCv3FmePUnMFxuql/',
                                         areaCode: 'QUEZON CITY 2 - HEART CENTER - VLUNA - QUIRINO'
                                     },
-
+                                    {
+                                        id: 'msr5',
+                                        title: 'Medical Sales Representative',
+                                        name: 'John Paul Ubando',
+                                        image: 'https://i.ibb.co/mvHPQHv/2024-10-22-15-40-00.png',
+                                        contact: 'annelie.bacay@biositeph.com',
+                                        contactNumber: '+63-917-110-2979',
+                                        facebookLink: 'https://www.facebook.com/people/Elie-DM/pfbid03gJmVrkXRvmhk6jCsJarJEm3RYh77n5JmDNE4NHzhy6GD7NgAcCv3FmePUnMFxuql/',
+                                        areaCode: 'QUEZON CITY 2 - HEART CENTER - VLUNA - QUIRINO'
+                                    },
+                                    {
+                                        id: 'msr6',
+                                        title: 'Medical Sales Representative',
+                                        name: 'John Paul Ubando',
+                                        image: 'https://i.ibb.co/mvHPQHv/2024-10-22-15-40-00.png',
+                                        contact: 'annelie.bacay@biositeph.com',
+                                        contactNumber: '+63-917-110-2979',
+                                        facebookLink: 'https://www.facebook.com/people/Elie-DM/pfbid03gJmVrkXRvmhk6jCsJarJEm3RYh77n5JmDNE4NHzhy6GD7NgAcCv3FmePUnMFxuql/',
+                                        areaCode: 'QUEZON CITY 2 - HEART CENTER - VLUNA - QUIRINO'
+                                    },
                         {
                             id: 'dsm2',
-                            title: 'District Sales Manager (NCR5-8)',
+                            title: 'District Sales Manager',
                             name: 'Christian B De Guzman',
                             image: 'https://i.ibb.co/By9KrZ0/CHRISTIAN-Rochelle-Ofracio.jpg',
                             contact: 'dsm.deguzman@biositeph.com',
@@ -155,7 +172,8 @@ Highcharts.chart('container', {
 
                                     {
                                         id: 'msrc',
-                                        name: 'MEDICAL SALES REPRESENTATIVE'
+                                        name: 'MEDICAL SALES REPRESENTATIVE',
+                                        title: '(NCR5-8)'
                                     },
                                     
                     
@@ -205,7 +223,7 @@ Highcharts.chart('container', {
                         
                         {
                             id: 'dsm3',
-                            title: 'District Sales Manager (SL)',
+                            title: 'District Sales Manager',
                             name: 'Elie Bacay',
                             image: 'https://i.ibb.co/M689FLV/ELIE.jpg',
                             contact: 'annelie.bacay@biositeph.com',
@@ -217,7 +235,8 @@ Highcharts.chart('container', {
 
                                 {
                                     id: 'msrr',
-                                    name: 'MEDICAL SALES REPRESENTATIVE'
+                                    name: 'MEDICAL SALES REPRESENTATIVE',
+                                    title: 'South Luzon'
                                 },
                                 
                 
