@@ -55,6 +55,9 @@ Highcharts.chart('container', {
         }, {
             level: 4,
             color: '#359154'
+        }, {
+            level: 5,
+            color: '#359154'
         }],    
         nodes: [
             {
