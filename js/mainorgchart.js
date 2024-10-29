@@ -222,6 +222,11 @@
                         }
                     };
                 }
+            },
+            states: {
+                hover: {
+                    enabled: false // Disables hover color effect
+                }
             }
         }
     }
