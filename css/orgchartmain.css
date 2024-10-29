@@ -414,6 +414,21 @@
 }
 
 
+/* Responsive Styling for max-width 667px */
+@media only screen and (max-width: 667px) {
+    .container, #container, #container-duplicate {
+        font-size: 60%;
+    }
+
+    .container h4, #container h4, #container-duplicate h4 {
+        font-size: 90%;
+    }
+
+    .container p, #container p, #container-duplicate p {
+        font-size: 70%;
+    }
+}
+
 /* Modal Styles */
 .modal {
     display: none; /* Hidden by default */
