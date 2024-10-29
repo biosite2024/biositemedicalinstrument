@@ -417,15 +417,15 @@
 /* Responsive Styling for max-width 667px */
 @media only screen and (max-width: 667px) {
     .container, #container, #container-duplicate {
-        font-size: 60%;
+        font-size: 20%;
     }
 
     .container h4, #container h4, #container-duplicate h4 {
-        font-size: 90%;
+        font-size: 50%;
     }
 
     .container p, #container p, #container-duplicate p {
-        font-size: 70%;
+        font-size: 40%;
     }
 }
 
