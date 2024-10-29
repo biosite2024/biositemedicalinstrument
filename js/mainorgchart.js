@@ -23,10 +23,48 @@
             ['CHIEF OPERATING OFFICER', 'FINANCE & ACCOUNTING DEPARTMENT'],
             ['CHIEF OPERATING OFFICER', 'REGULATORY DEPARTMENT'],
             ['CHIEF OPERATING OFFICER', 'HR & ADMIN DEPARTMENT'],
-            ['SALES DEPARTMENT', 'LUZON'],
-            ['SALES DEPARTMENT', 'VISMIN'],
-         
-           
+            ['SALES DEPARTMENT', 'SALES FORCE'],
+            ['SALES FORCE', 'LUZON'],
+            ['SALES FORCE', 'VISMIN'],
+            ['SALES DEPARTMENT', 'SALES SUPPORT'],
+            ['SALES SUPPORT', 'SALES SUPPORT'],
+            ['SALES SUPPORT', 'LUZON1'],
+            ['SALES SUPPORT', 'VISMIN1'],
+
+            ['MARKETING DEPARTMENT', 'CUSTOMER ENGAGEMENT & EVENTS'],
+            ['CUSTOMER ENGAGEMENT & EVENTS', 'LUZON3'],
+            ['CUSTOMER ENGAGEMENT & EVENTS', 'VISMIN3'],
+
+            ['OPERATIONS DEPARTMENT DEPARTMENT', 'SUPPLY CHAIN'],
+            ['SUPPLY CHAIN', 'LUZON4'],
+            ['SUPPLY CHAIN', 'VISMIN4'],
+
+            ['TECHNICAL SALES DEPARTMENT', 'TECHNICAL SERVICE'],
+            ['TECHNICAL SERVICE', 'LUZON5'],
+            ['TECHNICAL SERVICE', 'VISMIN5'],
+
+            ['TECHNICAL SERVICE', 'PRODUCT APPLICATION SPECIALIST'],
+            ['PRODUCT APPLICATION SPECIALIST', 'LUZON6'],
+            ['PRODUCT APPLICATION SPECIALIST', 'VISMIN6'],
+
+            ['TECHNICAL SALES DEPARTMENT', 'MEDICAL EQUIPMENT'],
+            ['MEDICAL EQUIPMENT', 'LUZON7'],
+            ['MEDICAL EQUIPMENT', 'VISMIN7'],
+
+            ['FINANCE & ACCOUNTING DEPARTMENT', 'ACCOUNTING'],
+            ['FINANCE & ACCOUNTING DEPARTMENT', 'CREDIT AND COLLECTION'],
+
+            ['CREDIT AND COLLECTION', 'LUZON8'], 
+            ['CREDIT AND COLLECTION', 'VISMIN8'],
+            ['CREDIT AND COLLECTION', 'IT DEPARTMENT'],
+
+            ['REGULATORY DEPARTMENT', 'REGULATORY PHARMICIST'],
+
+            ['HR & ADMIN DEPARTMENT', 'ADMINISTRATIVE'],
+            ['HR & ADMIN DEPARTMENT', 'HUMAN RESOURCES'],
+
+            ['HUMAN RESOURCES', 'LUZON9'],
+            ['HUMAN RESOURCES', 'VISMIN9'],
         ],
         levels: [
             { level: 0, color: 'silver', dataLabels: { color: 'black' }, height: 30 },
@@ -46,7 +84,29 @@
                         id: 'VISMIN',
                         name: '<i class="fas fa-eye"></i> VISMIN ',  // Add the eye icon using HTML
                         title: ''
+                    }, 
+                    {
+
+                        id: 'LUZON1',
+                        name: '<i class="fas fa-eye"></i> VISMIN ',  // Add the eye icon using HTML
+                        title: 'LUZON'
+                    },{
+
+                        id: 'VISMIN2',
+                        name: '<i class="fas fa-eye"></i> VISMIN ',  // Add the eye icon using HTML
+                        title: 'VISMIN'
+                    },{
+
+                        id: 'LUZON3',
+                        name: '<i class="fas fa-eye"></i> VISMIN ',  // Add the eye icon using HTML
+                        title: 'VISMIN'
+                    },{
+
+                        id: 'VISMIN3',
+                        name: '<i class="fas fa-eye"></i> VISMIN ',  // Add the eye icon using HTML
+                        title: 'VISMIN'
                     }
+
                 ],
             
     //     nodes: [ 
