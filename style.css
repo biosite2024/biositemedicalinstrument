@@ -16,6 +16,59 @@ body {
 .container {
   max-width: 1170px;
 }
+
+
+
+/* Base styling for your section and table */
+.pf-details.section {
+  padding: 40px 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.table th, .table td {
+  padding: 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+/* Responsive table wrapper */
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Mobile-specific tweaks */
+@media screen and (max-width: 768px) {
+  .pf-details.section {
+    padding: 20px 10px;
+  }
+
+  .table th, .table td {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+
+/* Even smaller screens (phones) */
+@media screen and (max-width: 480px) {
+  .table th, .table td {
+    font-size: 12px;
+    word-break: break-word;
+  }
+
+  .table th[scope="row"] br {
+    display: none; /* Optional: simplify line breaks */
+  }
+}
+
+/* Base styling for your section and table */
+
+
+
 #scrollUp {
   bottom: 15px;
   right: 15px;
