@@ -159,3 +159,58 @@ function showig_rows_count(target, maxRows, pageNum, totalRows) {
   const end = Math.min(pageNum * maxRows, totalRows);
   target.text(`Showing ${start} to ${end} of ${totalRows} entries`);
 }
+
+
+
+$(document).ready(function () {
+  $('table.table').each(function () {
+    const table = $(this);
+    const areaIndex = table.find('thead th').length - 1;
+    const areaTh = table.find('thead th').eq(areaIndex);
+
+    // Add triangle icon
+    areaTh.addClass('area-filter-toggle');
+
+    // Gather area options
+    const areaValues = new Set();
+    table.find('tbody tr').each(function () {
+      const val = $(this).find('td').eq(areaIndex).text().trim();
+      if (val) areaValues.add(val);
+    });
+
+    // Build dropdown
+    const dropdown = $('<div class="area-inline-filter"><select><option value="">All</option></select></div>');
+    Array.from(areaValues).sort().forEach(area => {
+      dropdown.find('select').append(`<option value="${area}">${area}</option>`);
+    });
+    $('body').append(dropdown);
+
+    // Show dropdown when header clicked
+    areaTh.on('click', function (e) {
+      const offset = $(this).offset();
+      dropdown.css({
+        top: offset.top + $(this).outerHeight(),
+        left: offset.left
+      }).toggle();
+      e.stopPropagation();
+    });
+
+    // Filter logic
+    dropdown.find('select').on('change', function () {
+      const val = $(this).val().toLowerCase();
+      table.find('tbody tr').each(function () {
+        const cellVal = $(this).find('td').eq(areaIndex).text().toLowerCase();
+        $(this).toggle(!val || cellVal === val);
+      });
+      default_index(table); // re-number
+      dropdown.hide();
+    });
+
+    // Hide on outside click
+    $(document).on('click', function (e) {
+      if (!$(e.target).closest('.area-inline-filter').length) {
+        dropdown.hide();
+      }
+    });
+  });
+});
