@@ -1305,3 +1305,43 @@ Version:	1.1
     padding: 65px 0px;
   }
 }
+
+  /* Layout tweaks for mobile */
+  @media (max-width: 768px) {
+    .header_wrap {
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .header_wrap .form-group,
+    .header_wrap .tb_search {
+      width: 100%;
+      font-size: 10px;
+
+    }
+    
+
+    .partners-section-title {
+      font-size: 18px;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 576px) {
+  /* Shrink font size and padding to fit more */
+  .table-responsive-custom table {
+    min-width: 100% !important;
+  }
+
+  .table-responsive-custom th,
+  .table-responsive-custom td {
+    font-size: 10px !important;
+    padding: 4px 6px !important;
+  }
+
+  .header_wrap .form-group,
+  .header_wrap .tb_search {
+    width: 100%;
+    font-size: 10px;
+  }
+}
